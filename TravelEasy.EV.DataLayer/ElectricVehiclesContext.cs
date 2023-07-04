@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TravelEasy.EV.DataLayer.Models;
+using TravelEasy.ElectricVehicles.DB.Models;
 
 namespace TravelEasy.EV.DataLayer
 {
@@ -11,9 +11,5 @@ namespace TravelEasy.EV.DataLayer
            : base(options)
         {
         }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EasyTravel;Trusted_Connection=True");
-        //}
     }
 }

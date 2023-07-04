@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using TravelEasy.EV.DataLayer.Models;
+using TravelEasy.ElectricVehicles.DB.Models;
 
 namespace TravelEasy.EV.DataLayer
 {
